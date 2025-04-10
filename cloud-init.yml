@@ -1,0 +1,9 @@
+#cloud-config
+users:
+- name: yousef
+  groups: sudo
+  shell: /bin/bash
+  sudo: [ 'ALL=(ALL) NOPASSWD:ALL' ]
+  ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDND8wp2NWt/Vi6cHk0n+T042mga3ppGDWA777tfzmhU2VamQqb8MQmaWaMbVxRbUOGNcRLb2nDPR0qloiT23k0MvG29op+mPPjrW+o0CTLb/Rm6kI2NXq3QmymBbJvDMMDqVvd1ITq6ecOqU1j76fDfBWw9bP48p7by78Lr21vuCOAr1bibFRwcpd2eX2kuXo9KKFtX/aV1yCi9B64aiKMQFUS9Etp7t5P+Z9e7213UQow93h70D3DyTPSlgK0ZWsFUx+nUrSKouiVlsY5XNdLBhYoXqjBbvJwDiAVCrGyNeVIfmfxNxal3/A5qOKwjXjZgo00yaysOSuxs1T2F7w5bmlScCm24KxlDYCvkRL/8pcgp+cPfVAiNEgvVmP/OkwwmtSzVaQM51xMcNxKyn65ivvLURQd2nqbzwMFJXXdSiOco7O6mjYh4vVC9QCfuDTyUyxbnAMTYTzLjTefNP/ld2ve6WgnxrGdgsf6CnPEnilKvU+iHpFKzgi0uC1cku8= yousef@YousefMac.local
+hostname: test05
